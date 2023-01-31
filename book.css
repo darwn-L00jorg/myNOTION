@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lexend+Tera:wght@100;200;300;400;500;600;700&family=Marcellus+SC&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Lexend Tera';
+}
+
+.bg{
+    background: rgba(247, 218, 191);
+}
+.head{
+    padding: 20px;
+}
+.head-line{
+    padding: 100px;
+
+    font-family: 'Lexend Tera';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#link{
+    text-decoration: none;
+    color: #060528;
+}
+#link:hover{
+    padding: 10px;
+    color: rgba(0, 0, 255, 0.89);
+    text-decoration: underline;
+    border: 1px solid rgb(11, 11, 11)
+}
+
+.incore{
+    font-family: 'Lexend Tera';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #802626;
+}
+.img-fluid{
+    width: 20em;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+#link-offel, #ref-link-offel{
+    text-decoration: none;
+    color: #060528;
+}
+#link-offel:hover{
+    padding: 10px;
+    color: rgba(0, 0, 255, 0.89);
+    text-decoration: underline;
+    border: 1px solid rgb(11, 11, 11)
+}
+
+/*yotube*/
+.header-gen{
+    font-family: 'Lexend Tera';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+    color: #802626;
+}
+.generals{
+    margin-top: 5em;
+    padding: 5px;
+    
+}
+
+/*footer*/
+#klein{
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Tera';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
